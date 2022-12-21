@@ -110,6 +110,8 @@ body > section,
 	padding: 10px 0;
 }
 
+/*-------- Start Skillbar Style  -------------*/
+
 .devider {
   margin-top: 30px;
 }
@@ -153,7 +155,23 @@ body > section,
   position: absolute;
   top: 48%;
 }
-
+/*-------- Start Skillbar Style  -------------*/
+.single-skill p {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    text-align: right;
+  }
+  
+  .sb_progress {
+    height: 8px !important;
+    border-radius: 12px;
+    border: 1px solid rgb(238, 238, 238);
+  }
+  
+  .sb_bar {
+    height: 8px !important;
+    border-radius: 12px;
+  }
 
 /*=========================================
 	Header
